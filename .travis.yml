@@ -1,0 +1,10 @@
+language: java
+services:
+  - docker
+
+before_install:
+  - ./cm selenoid start --vnc --tmpfs 128
+
+script:
+  - mvn clean test
+
