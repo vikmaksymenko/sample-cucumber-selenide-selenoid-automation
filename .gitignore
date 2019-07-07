@@ -1,5 +1,4 @@
 .idea
 .allure
 build
-target/*
-!target/site
+target

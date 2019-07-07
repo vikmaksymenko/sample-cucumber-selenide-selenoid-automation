@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MacBook-Pro-Viktor.local",
+    "children" : [ {
+      "name" : "8989@MacBook-Pro-Viktor.local.main(1)",
+      "children" : [ {
+        "name" : "When user type email to forgot password, email should be sent",
+        "uid" : "fef088798ecf2ef5",
+        "parentUid" : "7229c91f065a47cdf6166102b4e8f841",
+        "status" : "failed",
+        "time" : {
+          "start" : 1562483719461,
+          "stop" : 1562483724938,
+          "duration" : 5477
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "When user type email to forgot password, email should be sent",
+        "uid" : "3dde141d02ecf1bc",
+        "parentUid" : "7229c91f065a47cdf6166102b4e8f841",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562483713423,
+          "stop" : 1562483719380,
+          "duration" : 5957
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "When user type email to forgot password, email should be sent",
+        "uid" : "bc9f21acf310ecaa",
+        "parentUid" : "7229c91f065a47cdf6166102b4e8f841",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562483724950,
+          "stop" : 1562483724954,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7229c91f065a47cdf6166102b4e8f841"
+    } ],
+    "uid" : "8dd8b348c60250ea9ffbb4c0e335c981"
+  } ]
+}
