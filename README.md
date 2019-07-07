@@ -32,4 +32,6 @@ mvn allure:serve
 mvn allure:report
 ```
 
+### Travis CI Integration
 
+This project is integrated with Travis CI, see https://travis-ci.org/vikmaksimenko/sample-cucumber-selenide-selenoid-automation. The builds are running daily. 
