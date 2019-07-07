@@ -7,6 +7,7 @@ before_install:
 
 script:
   - mvn clean test
+  - mvn allure:report
 
 deploy:
   provider: pages
