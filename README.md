@@ -32,6 +32,8 @@ mvn allure:serve
 mvn allure:report
 ```
 
+Sample Allure report can be found on https://vikmaksimenko.github.io/sample-cucumber-selenide-selenoid-automation/allure-maven-plugin/index.html#
+
 ### Travis CI Integration
 
-This project is integrated with Travis CI, see https://travis-ci.org/vikmaksimenko/sample-cucumber-selenide-selenoid-automation. The builds are running daily. 
+This project is integrated with Travis CI, see https://travis-ci.org/vikmaksimenko/sample-cucumber-selenide-selenoid-automation. The builds are running daily and on push to master branch.
