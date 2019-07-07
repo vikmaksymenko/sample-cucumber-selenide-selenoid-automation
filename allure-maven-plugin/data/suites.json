@@ -1,0 +1,53 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test Forgot Password",
+    "children" : [ {
+      "name" : "When user type email to forgot password, email should be sent",
+      "uid" : "2d384105038822a3",
+      "parentUid" : "3075f7db37ea5443de262bcf14d714d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562488258202,
+        "stop" : 1562488265654,
+        "duration" : 7452
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3075f7db37ea5443de262bcf14d714d1"
+  }, {
+    "name" : "Test that fails",
+    "children" : [ {
+      "name" : "When user type email to forgot password, email should be sent",
+      "uid" : "44c956bca32f606c",
+      "parentUid" : "3b85128d21902e052735f567cc0ce4c1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1562488265734,
+        "stop" : 1562488271395,
+        "duration" : 5661
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3b85128d21902e052735f567cc0ce4c1"
+  }, {
+    "name" : "Verify that tests with @issue tag are skipped",
+    "children" : [ {
+      "name" : "When user type email to forgot password, email should be sent",
+      "uid" : "ef66656048deec43",
+      "parentUid" : "d81b4a1baada6fe6e5f3862be8adcafe",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1562488271409,
+        "stop" : 1562488271414,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d81b4a1baada6fe6e5f3862be8adcafe"
+  } ]
+}

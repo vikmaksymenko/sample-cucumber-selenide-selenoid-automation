@@ -1,0 +1,61 @@
+{
+  "4d90a10fdec849544750d65246b68685" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d384105038822a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562488258202,
+        "stop" : 1562488265654,
+        "duration" : 7452
+      }
+    } ]
+  },
+  "460a395b73e5172a9a89efbaf08ce7e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef66656048deec43",
+      "status" : "skipped",
+      "statusDetails" : "The case is marked with @issue.Sea details in https://issues.jenkins-ci.org/browse/JENKINS-22",
+      "time" : {
+        "start" : 1562488271409,
+        "stop" : 1562488271414,
+        "duration" : 5
+      }
+    } ]
+  },
+  "37edaa92c27d2246911f54055d5d2b2a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44c956bca32f606c",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Your e-mail's been sent TO HELL!' {#content}\nElement: '<div class=\"large-12 columns\" id=\"content\">Your e-mail's been sent!</div>'",
+      "time" : {
+        "start" : 1562488265734,
+        "stop" : 1562488271395,
+        "duration" : 5661
+      }
+    } ]
+  }
+}

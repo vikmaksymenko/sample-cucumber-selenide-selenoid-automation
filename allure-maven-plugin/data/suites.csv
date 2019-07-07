@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","Test Forgot Password: When user type email to forgot password, email should be sent","7452",""
+"failed","Test that fails: When user type email to forgot password, email should be sent","5661",""
+"skipped","Verify that tests with @issue tag are skipped: When user type email to forgot password, email should be sent","5",""

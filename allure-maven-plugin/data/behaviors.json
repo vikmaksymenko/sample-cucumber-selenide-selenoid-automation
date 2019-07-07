@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Forgot Password",
+    "children" : [ {
+      "name" : "When user type email to forgot password, email should be sent",
+      "children" : [ {
+        "name" : "When user type email to forgot password, email should be sent",
+        "uid" : "2d384105038822a3",
+        "parentUid" : "32163ed7912a796079260d000fcd923c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562488258202,
+          "stop" : 1562488265654,
+          "duration" : 7452
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "32163ed7912a796079260d000fcd923c"
+    } ],
+    "uid" : "42da50ad951e247c768fc89e721411cd"
+  }, {
+    "name" : "Test that fails",
+    "children" : [ {
+      "name" : "When user type email to forgot password, email should be sent",
+      "children" : [ {
+        "name" : "When user type email to forgot password, email should be sent",
+        "uid" : "44c956bca32f606c",
+        "parentUid" : "01cfaba66b0190d93f58501ac628a1d8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1562488265734,
+          "stop" : 1562488271395,
+          "duration" : 5661
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01cfaba66b0190d93f58501ac628a1d8"
+    } ],
+    "uid" : "1d996e6ecfd513426b671907d6a0a60b"
+  }, {
+    "name" : "Verify that tests with @issue tag are skipped",
+    "children" : [ {
+      "name" : "When user type email to forgot password, email should be sent",
+      "children" : [ {
+        "name" : "When user type email to forgot password, email should be sent",
+        "uid" : "ef66656048deec43",
+        "parentUid" : "62d3c551bcf1edbdfc3a84e38b15f8fe",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1562488271409,
+          "stop" : 1562488271414,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62d3c551bcf1edbdfc3a84e38b15f8fe"
+    } ],
+    "uid" : "fbab8da949b091fb044b06e02d5a1d28"
+  } ]
+}

@@ -1,0 +1,206 @@
+{
+  "uid" : "2d384105038822a3",
+  "name" : "When user type email to forgot password, email should be sent",
+  "fullName" : "Test Forgot Password: When user type email to forgot password, email should be sent",
+  "historyId" : "4d90a10fdec849544750d65246b68685",
+  "time" : {
+    "start" : 1562488258202,
+    "stop" : 1562488265654,
+    "duration" : 7452
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.setUp(Scenario)",
+    "time" : {
+      "start" : 1562488258205,
+      "stop" : 1562488258209,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  navigate to \"/forgot_password\"",
+      "time" : {
+        "start" : 1562488258212,
+        "stop" : 1562488264464,
+        "duration" : 6252
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(open) https://the-internet.herokuapp.com/forgot_password",
+        "time" : {
+          "start" : 1562488258321,
+          "stop" : 1562488264459,
+          "duration" : 6138
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  type \"test@test.com\"",
+      "time" : {
+        "start" : 1562488264464,
+        "stop" : 1562488264723,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(input#email) set value(test@test.com)",
+        "time" : {
+          "start" : 1562488264494,
+          "stop" : 1562488264723,
+          "duration" : 229
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And  push \"Retrieve password\"",
+      "time" : {
+        "start" : 1562488264723,
+        "stop" : 1562488265598,
+        "duration" : 875
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(button#form_submit) click()",
+        "time" : {
+          "start" : 1562488264723,
+          "stop" : 1562488265598,
+          "duration" : 875
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  message \"Your e-mail's been sent!\" should be displayed",
+      "time" : {
+        "start" : 1562488265599,
+        "stop" : 1562488265653,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(#content) should have(text 'Your e-mail's been sent!')",
+        "time" : {
+          "start" : 1562488265599,
+          "stop" : 1562488265653,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "MacBook-Pro-Viktor.local"
+  }, {
+    "name" : "thread",
+    "value" : "17466@MacBook-Pro-Viktor.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test Forgot Password"
+  }, {
+    "name" : "story",
+    "value" : "When user type email to forgot password, email should be sent"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.com.sample.features.Test Forgot Password"
+  }, {
+    "name" : "suite",
+    "value" : "Test Forgot Password"
+  }, {
+    "name" : "testClass",
+    "value" : "When user type email to forgot password, email should be sent"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/com/sample/features/test_forgot_password.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d384105038822a3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Test Forgot Password","When user type email to forgot password, email should be sent","0","0","1","0","0"
+"","Test that fails","When user type email to forgot password, email should be sent","1","0","0","0","0"
+"","Verify that tests with @issue tag are skipped","When user type email to forgot password, email should be sent","0","0","0","1","0"
