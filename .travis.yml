@@ -9,10 +9,9 @@ script:
   - mvn clean test
   - mvn allure:report
 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  keep-history: true
-  on:
-    branch: master
+after_script:
+  - mvn allure:report
+  - mv target/site/allure-maven-plugin/ .
+  - git add --all
+  - git commit -m "New build $(date)"
+  - git push
