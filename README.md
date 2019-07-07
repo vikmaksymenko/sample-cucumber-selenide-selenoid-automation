@@ -14,7 +14,10 @@ This is a project for running Cucumber Selenide automated UI tests on Selenoid c
 
 1. Start Selenoid containers 
 ```
-./cm selenoid start --vnc --tmpfs 128
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock  \
+    -v ${HOME}:/root                                            \
+    -e OVERRIDE_HOME=${HOME}                                    \
+    aerokube/cm:latest-release selenoid start --vnc --tmpfs 128
 ```
 2. Run tests:
 ```
