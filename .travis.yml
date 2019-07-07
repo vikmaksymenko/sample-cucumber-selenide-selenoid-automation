@@ -7,11 +7,3 @@ before_install:
 
 script:
   - mvn clean test
-  - mvn allure:report
-
-after_script:
-  - mvn allure:report
-  - mv target/site/allure-maven-plugin/ .
-  - git add --all
-  - git commit -m "New build $(date)"
-  - git push
