@@ -1,4 +1,4 @@
-Sample Cucumber Selenide UI Automation Test Framework
+Sample Cucumber Selenide UI Automation Test Framework [![Build Status](https://travis-ci.org/vikmaksimenko/sample-cucumber-selenide-selenoid-automation.svg?branch=master)](https://travis-ci.org/vikmaksimenko/sample-cucumber-selenide-selenoid-automation)
 =====================================================
 
 This is a project for running Cucumber Selenide automated UI tests on Selenoid containers
